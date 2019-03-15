@@ -1,3 +1,4 @@
+
 .container{
     padding:5%;
 }
@@ -5,7 +6,7 @@
     text-align:center;
 }
 .container .details{
-    border-left:3px solid #ded4da;
+    border-left:3px solid blue;
 }
 .container .details p{
     font-size:15px;
@@ -30,15 +31,7 @@
 ul li, ul li span:last-child {
     transition:all 500ms;
 }
-aside {
-    width:300px;
-    background:#111;
-    height:100%;
-    Position:fixed;
-    top:0;
-    left:0;
-    bottom:0;
-}
+
 ul {
     margin:0;
     padding:0;
@@ -48,12 +41,12 @@ ul li {
     list-style:none;
     border-bottom:1px solid #222;
     height:52px;
-    color:#666;
+    color: black;
     position:relative;
     overflow:hidden;
 }
 ul li:hover {
-    color:#fff;
+    color: green;
     cursor:pointer;
 }
 ul li span {
@@ -127,6 +120,7 @@ ul li:hover > span:last-child {
       transform: rotate(90deg) ;
       transition: all linear 0.25s;
       }   
+
     [data-toggle="collapse"].collapsed:after {
       transform: rotate(0deg) ;
     }
